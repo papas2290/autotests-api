@@ -43,4 +43,3 @@ path_user_response = httpx.patch(
     json=path_user_payload
 )
 print(f'path user status code: {path_user_response.status_code}')
-print(path_user_response.json())
