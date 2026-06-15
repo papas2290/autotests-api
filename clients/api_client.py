@@ -37,7 +37,7 @@ class ApiClient:
         """
         return self.client.post(url=url, json=json, data=data, files=files)
 
-    def path(self, url: URL | str, json: Any | None = None) -> Response:
+    def patch(self, url: URL | str, json: Any | None = None) -> Response:
         """
         Выполняет PATCH-запрос (частичное обновление данных).
         :param url: URL-адрес эндпоинта.

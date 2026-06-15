@@ -37,7 +37,7 @@ class CreateCourseRequestDict(TypedDict):
     minScore: int
     description: str
     estimatedTime: str
-    previewField: str
+    previewFileId: str
     createdByUserId: str
 
 
@@ -85,7 +85,7 @@ class CoursesClient(ApiClient):
         :param request: Словарь с title, maxScore, minScore, description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.path(f'/api/v1/courses/{course_id}', json=request)
+        return self.patch(f'/api/v1/courses/{course_id}', json=request)
 
     def delete_course_api(self, course_id: str) -> Response:
         """
