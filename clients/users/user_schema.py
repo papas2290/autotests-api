@@ -23,7 +23,7 @@ class CreateUserRequestSchema(BaseModel):
         populate_by_name=True
     )
 
-    email: str
+    email: EmailStr
     password: str
     last_name: str
     first_name: str
