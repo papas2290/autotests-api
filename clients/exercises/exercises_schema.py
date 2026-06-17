@@ -4,9 +4,9 @@ from pydantic import BaseModel, UUID4, Field, ConfigDict
 from pydantic.alias_generators import to_camel
 
 TitleType = Annotated[str, Field(min_length=1, max_length=250)]  # поле title
-OrderIndexType = Annotated[int, Field(default=0)]  # поле orderIndex
+OrderIndexType = Annotated[int, Field(ge=0)]  # поле orderIndex
 DescriptionType = Annotated[str, Field(min_length=1)]  # поле description
-EstimatedTimeType = Annotated[Optional[str], Field(min_length=1, max_length=50)]  # поле estimatedTime
+EstimatedTimeType = Optional[Annotated[str, Field(min_length=1, max_length=50)]]  # поле estimatedTime
 
 
 class ExerciseSchema(BaseModel):
@@ -21,14 +21,19 @@ class ExerciseSchema(BaseModel):
     course_id: UUID4
     max_score: int | None
     min_score: int | None
-    order_index: OrderIndexType
+    order_index: OrderIndexType = 0
     description: DescriptionType
-    estimatedTime: EstimatedTimeType
+    estimated_time: EstimatedTimeType
 
 
 class GetExercisesQuerySchema(BaseModel):
     """Описание схемы запроса на получение списка заданий"""
-    courseId: str
+    model_config = ConfigDict(
+        alias_generator=to_camel,
+        populate_by_name=True
+    )
+
+    course_id: UUID4
 
 
 class GetExercisesResponseSchema(BaseModel):
@@ -47,7 +52,7 @@ class CreateExerciseRequestSchema(BaseModel):
     course_id: UUID4
     max_score: int | None
     min_score: int | None
-    order_index: OrderIndexType
+    order_index: OrderIndexType = 0
     description: DescriptionType
     estimated_time: EstimatedTimeType
 
@@ -72,9 +77,9 @@ class UpdateExerciseRequestSchema(BaseModel):
     title: TitleType
     max_score: int | None
     min_score: int | None
-    orderIndex: OrderIndexType
+    order_index: OrderIndexType = 0
     description: DescriptionType
-    estimatedTime: EstimatedTimeType
+    estimated_time: EstimatedTimeType
 
 
 class UpdateExerciseResponseSchema(BaseModel):

@@ -45,12 +45,12 @@ print(f'Create file data: {create_file_response}')
 # Создание курса
 create_course_request = CreateCourseRequestSchema(
     title='Python',
-    maxScore=100,
-    minScore=10,
+    max_score=100,
+    min_score=10,
     description='Практика использования API-клиентов',
-    estimatedTime='2 weeks',
-    previewFileId=create_file_response.file.id,
-    createdByUserId=create_user_response.user.id
+    estimated_time='2 weeks',
+    preview_file_id=create_file_response.file.id,
+    created_by_user_id=create_user_response.user.id
 )
 create_course_response = course_client.create_course(request=create_course_request)
 print(f'Create course: {create_course_response}')
