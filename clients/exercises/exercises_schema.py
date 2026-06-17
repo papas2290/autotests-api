@@ -1,12 +1,6 @@
-from typing import Annotated, Optional
-
 from pydantic import BaseModel, UUID4, Field, ConfigDict
 from pydantic.alias_generators import to_camel
-
-TitleType = Annotated[str, Field(min_length=1, max_length=250)]  # поле title
-OrderIndexType = Annotated[int, Field(ge=0)]  # поле orderIndex
-DescriptionType = Annotated[str, Field(min_length=1)]  # поле description
-EstimatedTimeType = Optional[Annotated[str, Field(min_length=1, max_length=50)]]  # поле estimatedTime
+from tools.fakers import fake
 
 
 class ExerciseSchema(BaseModel):
@@ -17,13 +11,13 @@ class ExerciseSchema(BaseModel):
     )
 
     id: UUID4
-    title: TitleType
+    title: str
     course_id: UUID4
     max_score: int | None
     min_score: int | None
-    order_index: OrderIndexType = 0
-    description: DescriptionType
-    estimated_time: EstimatedTimeType
+    order_index: int
+    description: str
+    estimated_time: str
 
 
 class GetExercisesQuerySchema(BaseModel):
@@ -48,13 +42,13 @@ class CreateExerciseRequestSchema(BaseModel):
         populate_by_name=True
     )
 
-    title: TitleType
-    course_id: UUID4
-    max_score: int | None
-    min_score: int | None
-    order_index: OrderIndexType = 0
-    description: DescriptionType
-    estimated_time: EstimatedTimeType
+    title: str = Field(default_factory=fake.sentence)
+    course_id: UUID4 = Field(default_factory=fake.uuid4)
+    max_score: int | None = Field(default_factory=fake.max_score)
+    min_score: int | None = Field(default_factory=fake.min_score)
+    order_index: int = Field(default_factory=fake.integer)
+    description: str = Field(default_factory=fake.text)
+    estimated_time: str = Field(default_factory=fake.estimated_time)
 
 
 class CreateExerciseResponseSchema(BaseModel):
@@ -74,12 +68,12 @@ class UpdateExerciseRequestSchema(BaseModel):
         populate_by_name=True
     )
 
-    title: TitleType
-    max_score: int | None
-    min_score: int | None
-    order_index: OrderIndexType = 0
-    description: DescriptionType
-    estimated_time: EstimatedTimeType
+    title: str = Field(default_factory=fake.sentence)
+    max_score: int | None = Field(default_factory=fake.max_score)
+    min_score: int | None = Field(default_factory=fake.min_score)
+    order_index: int = Field(default_factory=fake.integer)
+    description: str = Field(default_factory=fake.text)
+    estimated_time: str = Field(default_factory=fake.estimated_time)
 
 
 class UpdateExerciseResponseSchema(BaseModel):
