@@ -1,26 +1,33 @@
-from pydantic import BaseModel, Field, ConfigDict, EmailStr
+from pydantic import BaseModel, ConfigDict, EmailStr, UUID4
+from pydantic.alias_generators import to_camel
 
 
 class UserSchema(BaseModel):
     """Описание структуры схемы пользователя."""
-    model_config = ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(
+        alias_generator=to_camel,
+        populate_by_name=True
+    )
 
-    id: str
+    id: UUID4
     email: EmailStr
-    last_name: str = Field(alias='lastName')
-    first_name: str = Field(alias='firstName')
-    middle_name: str = Field(alias='middleName')
+    last_name: str
+    first_name: str
+    middle_name: str
 
 
 class CreateUserRequestSchema(BaseModel):
     """Описание схемы запроса для создания пользователя. api/v1/users (POST)"""
-    model_config = ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(
+        alias_generator=to_camel,
+        populate_by_name=True
+    )
 
-    email: EmailStr
+    email: str
     password: str
-    last_name: str = Field(alias='lastName')
-    first_name: str = Field(alias='firstName')
-    middle_name: str = Field(alias='middleName')
+    last_name: str
+    first_name: str
+    middle_name: str
 
 
 class CreateUserResponseSchema(BaseModel):
@@ -37,12 +44,15 @@ class UpdateUserRequestSchema(BaseModel):
     """
     Описание схемы запроса на обновление пользователя.
     """
-    model_config = ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(
+        alias_generator=to_camel,
+        populate_by_name=True
+    )
 
     email: EmailStr | None
-    last_name: str | None = Field(alias='lastName')
-    first_name: str | None = Field(alias='firstName')
-    middle_name: str | None = Field(alias='middleName')
+    last_name: str | None
+    first_name: str | None
+    middle_name: str | None
 
 
 class UpdateUserResponseSchema(BaseModel):
