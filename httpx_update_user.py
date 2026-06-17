@@ -1,12 +1,12 @@
 import httpx
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 base_url = 'http://localhost:8000/api/v1/'
 
 # создание пользователя
 create_user_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": "string",
     "lastName": "string",
     "firstName": "string",
@@ -29,7 +29,7 @@ print(f'login status code: {login_response.status_code}')
 
 # Обновление пользователя
 path_user_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "lastName": "string",
     "firstName": "string",
     "middleName": "string"

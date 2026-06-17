@@ -7,9 +7,9 @@ from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client
 from clients.users.user_schema import CreateUserRequestSchema
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
-random_email = get_random_email()
+random_email = fake.email()
 name = random_email.split('@')[0]
 
 public_user_client = get_public_users_client()
