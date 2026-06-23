@@ -20,3 +20,8 @@ class CreateFileRequestSchema(BaseModel):
 class CreateFileResponseSchema(BaseModel):
     """Описание схемы ответа на создание файла."""
     file: FileSchema
+
+
+class GetFileResponseSchema(BaseModel):
+    """Описание схемы ответа на получение файла"""
+    file: FileSchema
