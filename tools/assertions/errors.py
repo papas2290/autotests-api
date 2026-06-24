@@ -35,50 +35,6 @@ def assert_validation_error_response(
         assert_validation_error(actual.details[index], detail)
 
 
-def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseSchema):
-    """
-    Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой валидационной ошибке.
-
-    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
-    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
-    """
-    expected = ValidationErrorResponseSchema(
-        details=[
-            ValidationErrorSchema(
-                type='string_too_short',
-                input='',
-                context={'min_length': 1},
-                message='String should have at least 1 character',
-                location=['body', 'filename']
-            )
-        ]
-    )
-
-    assert_validation_error_response(actual, expected)
-
-
-def assert_create_directory_with_empty_directory_response(actual: ValidationErrorResponseSchema):
-    """
-    Проверяет, что ответ на создание файла с пустым значением директории соответствует ожидаемой валидационной ошибке.
-
-    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
-    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
-    """
-    expected = ValidationErrorResponseSchema(
-        details=[
-            ValidationErrorSchema(
-                type='string_too_short',
-                input='',
-                context={'min_length': 1},
-                message='String should have at least 1 character',
-                location=['body', 'directory']
-            )
-        ]
-    )
-
-    assert_validation_error_response(actual, expected)
-
-
 def assert_internal_error_response(
         actual: InternalErrorResponseSchema,
         expected: InternalErrorResponseSchema
@@ -91,14 +47,3 @@ def assert_internal_error_response(
     :raises AssertionError: Если значения полей не совпадают.
     """
     assert_equal(actual.details, expected.details, name='details')
-
-
-def assert_file_not_found_response(actual: InternalErrorResponseSchema):
-    """
-    Функция для проверки ошибки, если файл не найден на сервере.
-
-    :param actual: Фактический ответ.
-    :raises AssertionError: Если фактический ответ не соответствует ошибке "File not found"
-    """
-    expected = InternalErrorResponseSchema(details='File not found')
-    assert_internal_error_response(actual, expected)
