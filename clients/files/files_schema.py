@@ -1,10 +1,10 @@
-from pydantic import BaseModel, HttpUrl, Field
+from pydantic import BaseModel, HttpUrl, Field, UUID4
 from tools.fakers import fake
 
 
 class FileSchema(BaseModel):
     """Описание схемы файла."""
-    id: str
+    id: UUID4
     url: HttpUrl
     filename: str
     directory: str
