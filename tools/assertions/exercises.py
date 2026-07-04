@@ -1,6 +1,7 @@
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
-    ExerciseSchema, GetExerciseResponseSchema
+    ExerciseSchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
 from tools.assertions.base import assert_equal
+from pydantic import UUID4
 
 
 def assert_create_exercise_response(request: CreateExerciseRequestSchema, response: CreateExerciseResponseSchema):
@@ -54,3 +55,23 @@ def assert_get_exercise_response(
         actual=get_exercise_response.exercise,
         expected=create_exercise_response.exercise
     )
+
+
+def assert_update_exercise_response(request: UpdateExerciseRequestSchema, response: UpdateExerciseResponseSchema,
+                                    exercise_id: UUID4):
+    """
+    Проверяет, что ответ на обновление задания соответствует данным из запроса.
+
+    :param request: Исходный запрос на обновление задания.
+    :param response: Ответ API с обновленными данными задания.
+    :param exercise_id: id задания, которое обновляли
+    :raises AssertionError: Если хотя бы одно поле не совпадает.
+    """
+    assert_equal(response.exercise.id, exercise_id, 'exercise_id')
+
+    assert_equal(response.exercise.title, request.title, 'title')
+    assert_equal(response.exercise.max_score, request.max_score, 'max_score')
+    assert_equal(response.exercise.min_score, request.min_score, 'min_score')
+    assert_equal(response.exercise.order_index, request.order_index, 'order_index')
+    assert_equal(response.exercise.description, request.description, 'description')
+    assert_equal(response.exercise.estimated_time, request.estimated_time, 'estimated_time')
