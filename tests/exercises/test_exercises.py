@@ -27,10 +27,13 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTags.REGRESSION, AllureTags.EXERCISES)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.EXERCISES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.EXERCISES)
 class TestExercises:
 
     @allure.tag(AllureTags.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     @allure.title('Create exercise')
     @allure.severity(Severity.BLOCKER)
     def test_create_exercise(self, exercises_client: ExercisesClient, function_course: CourseFixture):
@@ -45,6 +48,7 @@ class TestExercises:
 
     @allure.tag(AllureTags.GET_ENTITY)
     @allure.story(AllureStory.GET_ENTITY)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
     @allure.title('Get exercise')
     @allure.severity(Severity.BLOCKER)
     def test_get_exercise(self, exercises_client: ExercisesClient, function_exercise: ExercisesFixture):
@@ -60,6 +64,7 @@ class TestExercises:
 
     @allure.tag(AllureTags.UPDATE_ENTITY)
     @allure.story(AllureStory.UPDATE_ENTITY)
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     @allure.title('Update exercise')
     @allure.severity(Severity.CRITICAL)
     def test_update_exercise(self, exercises_client: ExercisesClient, function_exercise: ExercisesFixture):
@@ -77,6 +82,7 @@ class TestExercises:
 
     @allure.tag(AllureTags.DELETE_ENTITY)
     @allure.story(AllureStory.DELETE_ENTITY)
+    @allure.sub_suite(AllureStory.DELETE_ENTITY)
     @allure.title('Delete exercise')
     @allure.severity(Severity.CRITICAL)
     def test_delete_exercise(self, exercises_client: ExercisesClient, function_exercise: ExercisesFixture):
@@ -94,6 +100,7 @@ class TestExercises:
 
     @allure.tag(AllureTags.GET_ENTITIES)
     @allure.story(AllureStory.GET_ENTITIES)
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     @allure.title('Get exercises')
     @allure.severity(Severity.BLOCKER)
     def test_get_exercises(self, exercises_client: ExercisesClient, function_exercise: ExercisesFixture,
