@@ -1,5 +1,7 @@
+from typing import Self
+
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pydantic import BaseModel, HttpUrl, FilePath
+from pydantic import BaseModel, HttpUrl, FilePath, DirectoryPath
 
 
 class HttpClientConfig(BaseModel):
@@ -34,6 +36,14 @@ class Settings(BaseSettings):
 
     test_data: TestDataConfig
     http_client: HttpClientConfig
+    allure_results_dir: DirectoryPath = DirectoryPath('allure-results')
+
+    @classmethod
+    def initialized(cls) -> Self:
+        allure_results_dir = DirectoryPath('./allure-results')
+        allure_results_dir.mkdir(exist_ok=True)
+
+        return Settings(allure_results_dir=allure_results_dir)
 
 
-settings = Settings()
+settings = Settings.initialized()
