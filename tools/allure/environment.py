@@ -1,7 +1,9 @@
 from config import settings
+import platform
+import sys
 
 
-def create_allure_environment():
+def create_allure_environment_file():
     """
     Создаёт файл environment.properties для Allure отчёта.
 
@@ -16,6 +18,8 @@ def create_allure_environment():
         None
     """
     items = [f'{key}={value}' for key, value in settings.model_dump().items()]
+    items.append(f'os_info={platform.version()}, {platform.release()}')
+    items.append(f'python_version={sys.version}')
     properties = '\n'.join(items)
 
     with open(settings.allure_results_dir.joinpath('environment.properties'), 'w+') as file:
