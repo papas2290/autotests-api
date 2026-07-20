@@ -5,6 +5,7 @@ from httpx import Response
 
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 from clients.users.user_schema import UpdateUserRequestSchema, GetUserResponseSchema
+from tools.routes import ApiRoutes
 
 
 class PrivateUsersClient(ApiClient):
@@ -18,7 +19,7 @@ class PrivateUsersClient(ApiClient):
         Метод получения текущего пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get('/api/v1/users/me')
+        return self.get(f'{ApiRoutes.USERS}/me')
 
     @allure.step('Get user by id {user_id}')
     def get_user_api(self, user_id: str) -> Response:
@@ -27,7 +28,7 @@ class PrivateUsersClient(ApiClient):
         :param user_id: Идентификатор пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f'/api/v1/users/{user_id}')
+        return self.get(f'{ApiRoutes.USERS}/users/{user_id}')
 
     @allure.step('Update user by id {user_id}')
     def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
@@ -46,7 +47,7 @@ class PrivateUsersClient(ApiClient):
         :param user_id: Идентификатор пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(f'/api/v1/users/{user_id}')
+        return self.delete(f'{ApiRoutes.USERS}/{user_id}')
 
     @allure.step('Get user by id {user_id}')
     def get_user(self, user_id: str) -> GetUserResponseSchema:
