@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main  # Запускать workflow, когда будет сделан коммит в ветку main
-  pull request:
+  pull_request:
     branches:
       - main  # Запускать workflow, когда будет сделан pull request в ветку main
 
