@@ -38,7 +38,7 @@ jobs:
       # 5. Шаг для запуска тестового сервера с необходимыми переменными окружения
       - name: Start a test server
         env:
-          APP_HOST==: "http://localhost:8000"  # Устанавливаем адрес хоста сервера
+          APP_HOST: "http://localhost:8000"  # Устанавливаем адрес хоста сервера
           DATABASE_URL: "sqlite+aiosqlite:///./local.db"  # Устанавливаем URL локальной базы данных
           JWT_ALGORITHM: "HS256"  # Алгоритм для JWT токенов
           JWT_SECRET_KEY: "qa-automation-engineer-api-course-secret-key"  # Секретный ключ для JWT
