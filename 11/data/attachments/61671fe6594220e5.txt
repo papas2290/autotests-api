@@ -1,0 +1,11 @@
+curl -X "PATCH" \
+  "http://localhost:8000/api/v1/exercises/881f161e-ae57-45be-b639-c7494a862e57" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjUyLjM4OTQ5MiIsInVzZXJfaWQiOiI1MTAyNmQwYS00YzE1LTQ3NzMtYTFhNS1lOWNkOTIyYmIxMGIifQ.3yPCPTiJcZRCn1m3ZxwX1g3x18wsRDKNFYae4kh8oJ4' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meet place area enough fast truth model.","maxScore":52,"minScore":8,"orderIndex":40,"description":"Teacher it doctor guess usually. Understand early customer us analysis that.\nHair to available figure dinner. Long mother loss democratic identify spring. Unit friend my.","estimatedTime":"10 weeks"}'

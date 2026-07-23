@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/exercises" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjUzLjQ0MzQ3NyIsInVzZXJfaWQiOiJhMzBmYTcxMS00YTA0LTRjZDktOWQ1NC00N2JjY2NlNTlkMGUifQ.zRuRediECTXXSWViIgPZSPooF6sKOjkECA8dubf-2zU' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough baby notice bring lay.","courseId":"8f6244c9-2830-47dc-935a-dbfeac113dc4","maxScore":79,"minScore":8,"orderIndex":80,"description":"Indicate sure suffer democratic discuss reveal strategy. Class suggest it keep long difficult individual. Political night study lot country it among.","estimatedTime":"2 weeks"}'

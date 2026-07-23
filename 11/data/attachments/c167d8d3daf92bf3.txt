@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjQ5LjQyODQ5MiIsInVzZXJfaWQiOiI1OWJiYTJkOC1mYjBkLTQ5NGUtYmI5Yi01OTRkYjJmMWRiNDIifQ.-E3Sn45vR7ZF6OTa5ZPhzxTADjriFqio1BhiYqQSNQQ' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation clear traditional majority.","maxScore":86,"minScore":27,"description":"Likely carry film. Each be hospital mind drop country.\nReal trouble risk whom. Instead indicate boy how amount. Tend think assume prepare into ahead road.","estimatedTime":"3 weeks","previewFileId":"dd81d148-1562-459a-9b74-42a41c3e2b22","createdByUserId":"59bba2d8-fb0d-494e-bb9b-594db2f1db42"}'

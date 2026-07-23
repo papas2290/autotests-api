@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjU0LjA5MjA4NyIsInVzZXJfaWQiOiJhMzBmYTcxMS00YTA0LTRjZDktOWQ1NC00N2JjY2NlNTlkMGUifQ.wXEiAV37ZGwUzHMMAXd3PbrAG8saTKVAH6tfL28pjnk' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Affect he pick care get add reality picture.","maxScore":75,"minScore":3,"description":"Ball already movement show let material. Try affect customer develop those how catch. Only simple various.","estimatedTime":"3 weeks","previewFileId":"c749917a-7e60-44de-b444-04d2c1a8cc0d","createdByUserId":"a30fa711-4a04-4cd9-9d54-47bccce59d0e"}'

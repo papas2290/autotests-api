@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/exercises" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjUxLjQ2Mzk0NCIsInVzZXJfaWQiOiI1YjNmZGY0Mi00ZjJiLTQ4MDMtYmE4Ny00Mjg5ZmUyNTZiYzIifQ.Vr11SdBP-6v9JN64mSKrR2VB_um6otF5tgysgZlCgVs' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Same glass know history cover do.","courseId":"a728e763-8f8e-4d5d-aa7c-26e4e2b1acf7","maxScore":70,"minScore":30,"orderIndex":4,"description":"Will young west coach national together. Little order say by time. Green much why work.\nPainting language sign last. Bank high force.","estimatedTime":"4 weeks"}'

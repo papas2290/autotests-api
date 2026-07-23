@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjUwLjA3Njc0OCIsInVzZXJfaWQiOiIxMjk4MTIyZC1mOWZkLTRiYjEtYTk4ZC0zYzMwMmJmZWQ1YjQifQ.BbMa8SbjhMH_sKbcR-TG815MAPlEQsWFUgUggTjXH9w' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Morning throughout inside direction foreign history feel standard.","maxScore":73,"minScore":10,"description":"Success do or once ability. Range direction whose realize glass represent lot.\nMan range take if raise every nature later. Series act best give bring.","estimatedTime":"10 weeks","previewFileId":"ecbffea8-e233-4e57-b562-bf09f0c4a9ef","createdByUserId":"1298122d-f9fd-4bb1-a98d-3c302bfed5b4"}'

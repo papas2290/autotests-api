@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjUwLjgxNTY0NyIsInVzZXJfaWQiOiI2ZmUzODYwNi03ZjIyLTQ2YmMtYmRiMi00NDJiM2NlNTFlNmEifQ.wNCG04iZtbvXxSX4odtN3fc2JUA-AwXZrbq-me0aGrQ' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Matter training me.","maxScore":66,"minScore":2,"description":"None thank language bank body him morning themselves. Hotel oil discussion outside then.\nBad set shake discuss last. Fine find site social ask daughter want. Point public especially others bring.","estimatedTime":"9 weeks","previewFileId":"d8861018-3a9a-44bd-b959-c18e11cefa95","createdByUserId":"6fe38606-7f22-46bc-bdb2-442b3ce51e6a"}'

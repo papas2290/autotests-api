@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/exercises" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjUyLjM4OTQ5MiIsInVzZXJfaWQiOiI1MTAyNmQwYS00YzE1LTQ3NzMtYTFhNS1lOWNkOTIyYmIxMGIifQ.3yPCPTiJcZRCn1m3ZxwX1g3x18wsRDKNFYae4kh8oJ4' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"In crime system local.","courseId":"71e55161-6482-4d60-a276-cf5653eafc92","maxScore":79,"minScore":3,"orderIndex":92,"description":"Often one education above painting send north. Suffer sell inside it floor hair. Authority use never gun guy war.\nGood physical necessary cell on box. Question character central.","estimatedTime":"10 weeks"}'

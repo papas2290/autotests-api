@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjU1Ljg0MjAxMyIsInVzZXJfaWQiOiJlNDRhZDAzOC01NGVjLTRkMjUtYjY4Yy03ODY0Mjk5OTgzYzAifQ.nxTQUHWOnmcA8O7u2FkqUNz3iiES1qA4LKViMndSkHg' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Use human bit.","maxScore":81,"minScore":14,"description":"Technology factor rest little first good.\nAdd evening write off. Recognize information up man.\nAlthough perhaps perhaps school.","estimatedTime":"3 weeks","previewFileId":"332d623a-10ad-425e-8db7-43228d8008a5","createdByUserId":"e44ad038-54ec-4d25-b68c-7864299983c0"}'

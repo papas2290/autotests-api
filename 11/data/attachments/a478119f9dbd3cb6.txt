@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjU0Ljc1NTY1MCIsInVzZXJfaWQiOiIzMjIwZTJhNS00MGU0LTRjYTYtOGU4Yy1mZDU2ZTJkNGIxOTgifQ.5wMhVect9c2KEZzx1RN_rG0H60O_46vIfTZYpKqIOK8' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern final attack sell within technology.","maxScore":85,"minScore":21,"description":"Item small term job short. Know leg month or model. Friend along before exactly suddenly.\nUntil serve tough. Itself but point parent.","estimatedTime":"5 weeks","previewFileId":"d7cc6544-43b3-4e6d-aaf7-2d0fefdfd40b","createdByUserId":"3220e2a5-40e4-4ca6-8e8c-fd56e2d4b198"}'

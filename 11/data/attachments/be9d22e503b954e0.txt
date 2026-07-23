@@ -1,0 +1,11 @@
+curl -X "PATCH" \
+  "http://localhost:8000/api/v1/courses/555e5c7f-0707-438e-bdb2-9cfe94f24f68" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjQ5LjQyODQ5MiIsInVzZXJfaWQiOiI1OWJiYTJkOC1mYjBkLTQ5NGUtYmI5Yi01OTRkYjJmMWRiNDIifQ.-E3Sn45vR7ZF6OTa5ZPhzxTADjriFqio1BhiYqQSNQQ' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Six play religious onto quickly guess common.","maxScore":84,"minScore":7,"description":"Subject happy front expect. Walk ability between material.\nCatch process agency activity. Glass let watch industry role against hundred. Amount production executive prevent figure.","estimatedTime":"8 weeks"}'

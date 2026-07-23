@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjExOjUyLjA4MjAyNCIsInVzZXJfaWQiOiI1YjNmZGY0Mi00ZjJiLTQ4MDMtYmE4Ny00Mjg5ZmUyNTZiYzIifQ.GowLVhBqcLE83gkEq6_9_2xCT6H73tzwkeWz3HV3CSA' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rise activity national worker team safe along.","maxScore":69,"minScore":8,"description":"Your measure scene produce room whether. Than next type respond goal result peace since.\nCall maybe current order.\nReflect wind religious. Begin himself guy hospital specific. Second six agreement.","estimatedTime":"8 weeks","previewFileId":"56e87bbd-04d7-4045-b15d-1e2c3629ece5","createdByUserId":"5b3fdf42-4f2b-4803-ba87-4289fe256bc2"}'
