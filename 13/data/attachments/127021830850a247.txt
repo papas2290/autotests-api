@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Parent smile increase if good down.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 97
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 25
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Near mouth force worry. Wall especially skill.
+Floor move maintain Congress. Approach fact ability garden practice. Scene door admit nature.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that preview_file.id equals to 9b97a1dc-8274-41d1-8783-8e66fcb58259
+INFO     BASE_ASSERTIONS:base.py:36 Check that created_by_user.id equals to 8c606137-4418-44f9-af88-c72a15d4eef3
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

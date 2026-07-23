@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE5OjE0LjI1OTM0NCIsInVzZXJfaWQiOiJjNTMxYTUzOS1mN2RiLTQ1NWYtYWM0Zi1hZTFmYWFjYTUxZTAifQ.0SYPRQa14gLQUPqG2zNdL9PuegbjyNM0qFf3r_TtEvg' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decade center certainly.","maxScore":80,"minScore":27,"description":"Become list despite cost owner base dinner. Inside teacher street he.","estimatedTime":"7 weeks","previewFileId":"3dbdfea3-407c-4e91-8b3d-298d54a5b843","createdByUserId":"c531a539-f7db-455f-ac4f-ae1faaca51e0"}'

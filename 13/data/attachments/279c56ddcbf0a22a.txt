@@ -1,0 +1,11 @@
+curl -X "PATCH" \
+  "http://localhost:8000/api/v1/exercises/f91cc844-54e6-4a60-b263-a746076a82c5" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE5OjEyLjU3NTY1NSIsInVzZXJfaWQiOiJmN2E5YTVhNy1hYmVkLTRiNDQtYjdlNC01MGQ4MTM2ZmQ3MzMifQ.RNkMXJkm6okL95D34pbUr_ukmVxvEpPeTNRkSjCUwTg' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Firm there shoulder why age white charge year.","maxScore":99,"minScore":4,"orderIndex":71,"description":"Student writer interest exactly south. Full light mouth magazine agent take.\nRule picture her too involve. Sound source yes improve security manager join start.","estimatedTime":"7 weeks"}'

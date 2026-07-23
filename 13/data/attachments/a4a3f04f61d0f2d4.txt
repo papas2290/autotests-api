@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE5OjEyLjI2NjcwOCIsInVzZXJfaWQiOiJmZjA2NjRmMi1lZDdkLTQwZWEtODRkYi01Y2IxZTZiYTAzZWMifQ.U56zgjl3pUHk84S2B8-hpc7rp-Huuu_vcvHfFmk8yh4' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Itself condition bad because project others.","maxScore":71,"minScore":5,"description":"Summer consider every charge hand modern. Player seat administration candidate let which agency toward.\nOnto miss if area happen total. Arrive dark nice Democrat.","estimatedTime":"1 weeks","previewFileId":"143f3281-eff9-4784-ab13-1bce66f19631","createdByUserId":"ff0664f2-ed7d-40ea-84db-5cb1e6ba03ec"}'

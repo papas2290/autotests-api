@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE5OjExLjAwMTk3OSIsInVzZXJfaWQiOiI4YzYwNjEzNy00NDE4LTQ0ZjktYWY4OC1jNzJhMTVkNGVlZjMifQ.09rL9G3HMKEwz0vBv_8Vv_OPQ-s0YeyjZBrhk7mY6xc' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Parent smile increase if good down.","maxScore":97,"minScore":25,"description":"Near mouth force worry. Wall especially skill.\nFloor move maintain Congress. Approach fact ability garden practice. Scene door admit nature.","estimatedTime":"2 weeks","previewFileId":"9b97a1dc-8274-41d1-8783-8e66fcb58259","createdByUserId":"8c606137-4418-44f9-af88-c72a15d4eef3"}'

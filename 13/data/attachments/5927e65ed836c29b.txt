@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE5OjEyLjkyMzQxMyIsInVzZXJfaWQiOiJmN2E5YTVhNy1hYmVkLTRiNDQtYjdlNC01MGQ4MTM2ZmQ3MzMifQ.VmAj8MQQqZ5u788kFgsE09AOEBSgawyXXwrI28aXKwU' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pressure somebody yet statement enter.","maxScore":57,"minScore":29,"description":"Degree air say pretty. Alone road through bank nearly listen. Positive campaign walk him teach wonder.","estimatedTime":"8 weeks","previewFileId":"68fa30be-5405-40f5-b81f-4f21536d4a38","createdByUserId":"f7a9a5a7-abed-4b44-b7e4-50d8136fd733"}'

@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/exercises" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE5OjE1LjY1OTgxNSIsInVzZXJfaWQiOiI4NDBhMmJjZi03MmE4LTQ0ZjEtYmRjNy1hYmQzOGI2M2UzZTQifQ.FXzGsv9hFO4nvCjL36dGD6bzyF2mt1TWe7ImWsTu-vg' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Property thus must building benefit thank more.","courseId":"602b4550-8125-4a65-b215-446c8d94b4d5","maxScore":92,"minScore":8,"orderIndex":39,"description":"Seek here type draw production these.\nWhich green bring shoulder floor color. Some service one loss pressure. Yes family those coach guess.","estimatedTime":"9 weeks"}'

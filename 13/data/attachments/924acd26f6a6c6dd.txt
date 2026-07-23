@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/exercises" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE5OjEzLjYzOTY5NiIsInVzZXJfaWQiOiJjNTMxYTUzOS1mN2RiLTQ1NWYtYWM0Zi1hZTFmYWFjYTUxZTAifQ.Gnatszjmqb6BEzaZrF8_3aRzl6oFasp6DrKiK6ijP20' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Add my capital.","courseId":"42430e70-524f-4253-a61a-57234c59fd67","maxScore":78,"minScore":23,"orderIndex":45,"description":"Next wall natural rule. Take need game prove thank. Fine film stage detail.\nReady little assume piece likely stuff.\nSystem upon to. Less customer movement discussion.","estimatedTime":"7 weeks"}'

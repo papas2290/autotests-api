@@ -1,0 +1,11 @@
+curl -X "PATCH" \
+  "http://localhost:8000/api/v1/courses/0a3efbce-2ee5-442d-9ba0-619e18ec9e63" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE5OjA5LjU3ODk0OCIsInVzZXJfaWQiOiIxM2FlNmY4NC01OGJjLTQwMDEtODBjNC1iZDliZmFiZmY5MDcifQ.jpQzOOor1KL_uIGWUgObjqLcKs_WkNXziPXSwz5O43Q' \
+  -H 'content-length: 218' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific performance on test.","maxScore":69,"minScore":12,"description":"Area general black significant once. Republican foot attack. Trip arm name training space never wear food.","estimatedTime":"9 weeks"}'
