@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA3OjQ0LjE3NjAzMiIsInVzZXJfaWQiOiIwYWIyY2NhYi03NTdmLTQ5MzItYTA5NS03NzhlYTA2ZTRkNzkifQ.BqsohC9oH59kUVqKJgtVQLNM24QMzZ32Ozp551LlKaE' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expert significant visit him grow.","maxScore":77,"minScore":18,"description":"Fire wrong nothing certain then whether official.\nWriter bad all affect. Meet guess measure item world move perform machine. Identify describe enjoy discussion author scene near water.","estimatedTime":"10 weeks","previewFileId":"b08ed781-c002-4885-8fa1-01c58f9749da","createdByUserId":"0ab2ccab-757f-4932-a095-778ea06e4d79"}'

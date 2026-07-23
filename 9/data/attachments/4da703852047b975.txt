@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA3OjQyLjY1Mzc5MSIsInVzZXJfaWQiOiIxNTdjY2U5ZC1jN2FkLTQyMDYtODliZi1mMzhmMzE0MTc5ZTEifQ.Mq82aR8tDB6u1ZB5dVKT4rLsxa5XB9yi3GzNSbuthrk' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career accept effort gun commercial it support.","maxScore":72,"minScore":18,"description":"Light executive whatever mouth game. Stop dark sing require want many. Large position month sometimes society.\nHit minute trial minute agent bed. Eat yourself quality street run.","estimatedTime":"5 weeks","previewFileId":"81c8df40-3108-400a-bf33-76a0b0e94d81","createdByUserId":"157cce9d-c7ad-4206-89bf-f38f314179e1"}'

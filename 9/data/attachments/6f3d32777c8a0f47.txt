@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA3OjQ1LjY4ODc3MyIsInVzZXJfaWQiOiI1OTc4OWNhYS0yNDQzLTQyMjctODg1Ni0zNmExOGRlNDMwZGYifQ.F4g8AtOBuD7BwEqqJp3TToyZnjAwLZWeUdFjB-GUB60' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among group assume hundred second out.","maxScore":51,"minScore":25,"description":"Idea particular floor save responsibility challenge add. Mission job movement only.\nReady those president admit until bed health. Face apply today another deep name reach. Left he story page final.","estimatedTime":"9 weeks","previewFileId":"33f0f403-309d-4557-b08f-aeea6b8bccb1","createdByUserId":"59789caa-2443-4227-8856-36a18de430df"}'

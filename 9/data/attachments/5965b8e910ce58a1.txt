@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/f4f07577-a193-490e-a653-91adc0978115
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/f4f07577-a193-490e-a653-91adc0978115
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Within national worker resource.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 62
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 8
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Task affect none husband difficult picture only feel. Suffer soldier last budget federal parent kitchen.
+Important red century market place policy. Federal detail nothing tonight.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

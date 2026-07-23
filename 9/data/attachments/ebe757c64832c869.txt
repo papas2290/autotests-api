@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA3OjQ4LjM2NDg1NSIsInVzZXJfaWQiOiIxNjgxZDQ2ZS1kNjUwLTRkYjUtOTg5My0yODQ1NmJkMDNjZjIifQ.Xp0y9iJOyGU3VrJlBW-48cTWyE4Dm4SrpyFYlqBAvI8' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Church wear concern.","maxScore":87,"minScore":30,"description":"Quite direction current professor thousand. Will action information benefit instead field.\nStudy whether act discover. Hour senior sound too once unit happy. Gun meet who concern available approach.","estimatedTime":"9 weeks","previewFileId":"ee05b7be-a29f-41a8-8a72-76da62d005fd","createdByUserId":"1681d46e-d650-4db5-9893-28456bd03cf2"}'

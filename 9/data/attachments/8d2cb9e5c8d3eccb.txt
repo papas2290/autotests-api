@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA3OjQ4LjA5MDk4NyIsInVzZXJfaWQiOiIxYWNhMjBjMS0yNDczLTQyN2QtOWRmYy0zMDBlNDEwNGE2MjUifQ.kcipDLC5QXOXD8SU94EsC3WRVPqoiApEgJUi_w812VI' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Full hundred radio could white.","maxScore":62,"minScore":9,"description":"Painting born recent forget read. Gun simply hot appear.\nGas usually style help guy. Out strong between example boy.","estimatedTime":"3 weeks","previewFileId":"16d70a3b-dec2-4613-8203-d9de58ce4959","createdByUserId":"1aca20c1-2473-427d-9dfc-300e4104a625"}'

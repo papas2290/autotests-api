@@ -1,0 +1,28 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=57d97597-1b64-4c90-8088-39e0d0902ed5
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=57d97597-1b64-4c90-8088-39e0d0902ed5
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:48 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:70 Check that length of exercises equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to ef1235bd-0918-4ae0-814e-556a001db80d
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Audience until night true professor Congress answer.
+INFO     BASE_ASSERTIONS:base.py:36 Check that course_id equals to 57d97597-1b64-4c90-8088-39e0d0902ed5
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 59
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 20
+INFO     BASE_ASSERTIONS:base.py:36 Check that order_index equals to 56
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Second one million effect bring those benefit. Never culture whether simple.
+Reason practice owner data argue of similar. Husband blue today situation.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
