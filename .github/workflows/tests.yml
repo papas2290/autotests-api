@@ -71,7 +71,7 @@ jobs:
     steps:
       # 9. Шаг для загрузки артефакта с результатами Allure
       - name: Download Allure results artifact
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v5
         with:
           name: allure-results
           path: allure-results
