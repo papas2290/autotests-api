@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjA4OjM1LjQ0NDk1MCIsInVzZXJfaWQiOiJmMjI1ZGZjMC1mMGRhLTRhZGMtOWEwNi1iOWJlYzgzNzY5OWMifQ.xWcd2YSti1ESP0QWsHWXlQnIF22TmkPvPpn0HnCf3tQ' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Condition maybe year.","maxScore":66,"minScore":6,"description":"Check who nature imagine understand. Sing able church food similar again read.\nReligious or tree student man worry. Her general paper part response. Statement source let.","estimatedTime":"10 weeks","previewFileId":"1f272167-41ef-4f5f-8749-a40320c7c882","createdByUserId":"f225dfc0-f0da-4adc-9a06-b9bec837699c"}'

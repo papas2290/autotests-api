@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjA4OjM4Ljk3NzQ3OCIsInVzZXJfaWQiOiIzZTAwMzBiYS0xM2M4LTQ1NmUtODJlOC1hZjEzNjFhZDUxMTUifQ.-uqGnnXudv53o0Yu1UrjsjiaJSgMlmfRKSFZZ-YSbzI' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Should word shake yeah.","maxScore":61,"minScore":17,"description":"Business dream democratic animal would. Senior situation white education democratic stop tough. Itself agree subject finish.","estimatedTime":"8 weeks","previewFileId":"e9a26f6a-4f4a-4759-91ed-929f80a9ae6d","createdByUserId":"3e0030ba-13c8-456e-82e8-af1361ad5115"}'

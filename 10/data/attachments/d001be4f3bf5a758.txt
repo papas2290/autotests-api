@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjA4OjM0Ljg2NTk2NiIsInVzZXJfaWQiOiIwZGE4NGM3NS02YmI3LTQ3NmQtYjBhOC01ZTliZmExYjIxODkifQ.uJS2qoqIhWyldThrDX4Ly899nEu-sA3BQ631YpV9vRY' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Employee son forward kind where.","maxScore":68,"minScore":21,"description":"Debate wrong traditional no coach too. Staff low road eye source miss. Teacher suddenly decade continue. Return above call number until hear as.","estimatedTime":"8 weeks","previewFileId":"95d83c48-cf8f-4674-8301-bda320471d6d","createdByUserId":"0da84c75-6bb7-476d-b0a8-5e9bfa1b2189"}'

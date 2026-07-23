@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Condition maybe year.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 66
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 6
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Check who nature imagine understand. Sing able church food similar again read.
+Religious or tree student man worry. Her general paper part response. Statement source let.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that preview_file.id equals to 1f272167-41ef-4f5f-8749-a40320c7c882
+INFO     BASE_ASSERTIONS:base.py:36 Check that created_by_user.id equals to f225dfc0-f0da-4adc-9a06-b9bec837699c
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

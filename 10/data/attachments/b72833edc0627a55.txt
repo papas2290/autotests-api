@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/3e207e8b-fd5c-4988-aa78-92bb325dc57e
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/3e207e8b-fd5c-4988-aa78-92bb325dc57e
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Soldier always structure work step and evidence.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 75
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 11
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Mission generation control major. Pretty ground thank over.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

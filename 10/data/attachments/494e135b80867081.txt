@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/exercises" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjA4OjM4LjQyOTQzNyIsInVzZXJfaWQiOiIzZTAwMzBiYS0xM2M4LTQ1NmUtODJlOC1hZjEzNjFhZDUxMTUifQ.857W0M5NXhuqqYfmatPpY5otS8GPfzaAWcTtR9EXJn0' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Control adult interesting water story land.","courseId":"36b93d65-1b74-4667-9687-b61a4bb3156a","maxScore":64,"minScore":1,"orderIndex":13,"description":"Area western any analysis right.\nSome detail north. Value sell action successful risk every professional.\nWall seven party audience. Last political environment deal military meeting.","estimatedTime":"6 weeks"}'

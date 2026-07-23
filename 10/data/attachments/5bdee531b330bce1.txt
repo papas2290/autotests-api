@@ -1,0 +1,11 @@
+curl -X "PATCH" \
+  "http://localhost:8000/api/v1/courses/3e207e8b-fd5c-4988-aa78-92bb325dc57e" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjA4OjMzLjk1OTIyOSIsInVzZXJfaWQiOiI4OTNiNGZhOC1jNzZhLTQ4ZjItYmY4YS05MjA0MWQ0NDgzYzkifQ.ar2paFpuoduUH_MFugKJxT782lAR3MBbqC1L4Jp5tig' \
+  -H 'content-length: 190' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier always structure work step and evidence.","maxScore":75,"minScore":11,"description":"Mission generation control major. Pretty ground thank over.","estimatedTime":"9 weeks"}'

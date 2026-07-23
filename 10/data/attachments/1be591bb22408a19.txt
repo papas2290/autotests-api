@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/exercises" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjA4OjM2LjYzNzQzNCIsInVzZXJfaWQiOiJkZDViOWYyZC1hZGJiLTQ2MzQtYTdmYS1iZWQyZGUxZjlmOGIifQ.2_aEP4ggvCjQJYWdngI9SDthjdggjybw734bOS-3Sxo' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throw think store mind degree author.","courseId":"8e309edd-c768-4202-9e53-48a3ef5332a5","maxScore":72,"minScore":23,"orderIndex":96,"description":"Exist expert door their cup experience both. Specific owner program draw. Director ready hand plan entire.\nPlant pressure left safe attention. Nation test toward.","estimatedTime":"1 weeks"}'

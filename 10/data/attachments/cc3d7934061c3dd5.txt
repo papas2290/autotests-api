@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjA4OjM3LjE4MzQ2MCIsInVzZXJfaWQiOiJkZDViOWYyZC1hZGJiLTQ2MzQtYTdmYS1iZWQyZGUxZjlmOGIifQ.gMfw_dP0iwuCPb2v-TeRFQqAtQvEDeqEVOjQ1R4FSOc' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Take whether big with buy question public.","maxScore":91,"minScore":2,"description":"Suddenly president performance likely early. Power rule to. Table concern east available.\nPresent part PM moment table. Explain system involve center significant forward learn.","estimatedTime":"4 weeks","previewFileId":"f276d4c4-e321-475a-a9b9-2acf39aa4a6f","createdByUserId":"dd5b9f2d-adbb-4634-a7fa-bed2de1f9f8b"}'

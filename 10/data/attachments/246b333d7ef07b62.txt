@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjA4OjM4LjcwMzM5MCIsInVzZXJfaWQiOiI0OWNjMTEwMC00YzgzLTRiMWEtYjRmNS02NTI5MWM2NWNiMDIifQ.KEf_ZxeIwOXXpQD-g7FS8mIW3CGs2ckKUZXupnnScjY' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"White personal want.","maxScore":70,"minScore":11,"description":"Leave sell number particular. Industry probably another car others church theory. Thousand site I seek without sing building. Those purpose ok civil study mean buy.","estimatedTime":"2 weeks","previewFileId":"d9bde94f-0046-4bdf-8091-8e3e72d6b035","createdByUserId":"49cc1100-4c83-4b1a-b4f5-65291c65cb02"}'

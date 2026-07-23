@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjA4OjM2LjkxMDEzOSIsInVzZXJfaWQiOiI2YTE2NzVjMS01MDlmLTQ3YmUtYjFiMS1lMjU5ZDcwN2VmNWUifQ.tA-8EZhiMuFzKQdPmDWBEr9OAzS1d0TW5KQBBl22A1Q' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Standard wind majority section standard gun.","maxScore":79,"minScore":7,"description":"Available room alone including. Religious leader task during day.\nEnvironment water happen begin certain international. Evidence easy account far per.","estimatedTime":"8 weeks","previewFileId":"1ec3fcf6-fb47-40aa-bedd-c7b3ca7e67ce","createdByUserId":"6a1675c1-509f-47be-b1b1-e259d707ef5e"}'
