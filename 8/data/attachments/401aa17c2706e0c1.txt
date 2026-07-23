@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA0OjQwLjk2NjAxMSIsInVzZXJfaWQiOiI0YjA1N2ZhOS1jYzAzLTQyYTAtYmI5OC03M2MyNWJkMDU5YzIifQ.qVd6SelU1FFbcN8YPfBtYiCIg5c-4TPYHLOHMAsvnBQ' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Security claim national born hear who.","maxScore":95,"minScore":28,"description":"Carry beautiful them tonight low tend positive conference. Receive enter success parent hotel. Enter suffer full too face list will. Entire act summer program.","estimatedTime":"8 weeks","previewFileId":"961d4cf2-5d18-4cc4-9cde-3b14921603f6","createdByUserId":"4b057fa9-cc03-42a0-bb98-73c25bd059c2"}'

@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA0OjQzLjAyNDE0OSIsInVzZXJfaWQiOiI2ZTFiYTA1Mi0wNWM0LTQ3MWYtOWI3Ni04MzIyYTVlMDMxNDkifQ.7ZsYHbqW0YqbD3m7etz4tiH3GACbKvn-xhY4-tNUAgg' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact relate young including.","maxScore":75,"minScore":2,"description":"Rest dinner idea could bank end security. Authority imagine among single drop only. Conference land expect south national set.","estimatedTime":"1 weeks","previewFileId":"e89b182f-4901-4535-9e4a-3d95c8a64d0c","createdByUserId":"6e1ba052-05c4-471f-9b76-8322a5e03149"}'

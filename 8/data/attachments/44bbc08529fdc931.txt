@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/exercises" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA0OjQ2LjA5NjM4MCIsInVzZXJfaWQiOiJiNjc3YTRjNC0wNDQwLTQzNDctYjNhOC0zZjhjYjE1YzM5YjkifQ.D9E-9E33mzqS3Rm2Xj5ltdwh_lbUx5eSUwxbZfErvAg' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Democratic inside think ahead.","courseId":"d1b2d23c-c7ea-44be-ad67-bcbb3519fbfd","maxScore":86,"minScore":2,"orderIndex":61,"description":"Skin discuss bag up happy six. Laugh son middle old expect appear film. Issue break respond knowledge wide and.","estimatedTime":"9 weeks"}'

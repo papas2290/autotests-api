@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA0OjQ1LjEwMzA1MyIsInVzZXJfaWQiOiI5ZTQ4Y2I4Ni0zYTk4LTQwZjktYWZkOS1iZGQzNWQ2NDg0ZmQifQ.Niyoz31W0oQabNqa_FQeRxWRneMvfd2wB_g4R__xAx8' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal final front recent course.","maxScore":85,"minScore":28,"description":"Without Republican herself summer beyond talk community. Believe run be once alone. Eat capital something mother cup least only.","estimatedTime":"7 weeks","previewFileId":"d6f61338-b4f3-4d5d-a97d-d4054a48f320","createdByUserId":"9e48cb86-3a98-40f9-afd9-bdd35d6484fd"}'

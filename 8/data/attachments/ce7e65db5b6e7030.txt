@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/exercises" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA0OjQ0LjU1MjY0NSIsInVzZXJfaWQiOiI5ZTQ4Y2I4Ni0zYTk4LTQwZjktYWZkOS1iZGQzNWQ2NDg0ZmQifQ.uwHZ331CW27e_bWR0bjZmNfUeYUFrUL_7eN3dOa-nAc' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career common large reach.","courseId":"36a524c3-9a54-4f4b-8863-8d4ce74e921e","maxScore":64,"minScore":7,"orderIndex":9,"description":"Draw loss term hold whole. Start tough hospital little. Adult next in many.\nQuality should recent they last. Will cut believe security shoulder at watch.","estimatedTime":"3 weeks"}'

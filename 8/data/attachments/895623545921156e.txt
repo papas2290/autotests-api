@@ -1,0 +1,27 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=d1b2d23c-c7ea-44be-ad67-bcbb3519fbfd
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=d1b2d23c-c7ea-44be-ad67-bcbb3519fbfd
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:48 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:70 Check that length of exercises equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that id equals to 1869e9db-be5c-4329-9c21-06718cf543ce
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to Democratic inside think ahead.
+INFO     BASE_ASSERTIONS:base.py:36 Check that course_id equals to d1b2d23c-c7ea-44be-ad67-bcbb3519fbfd
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 86
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 2
+INFO     BASE_ASSERTIONS:base.py:36 Check that order_index equals to 61
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Skin discuss bag up happy six. Laugh son middle old expect appear film. Issue break respond knowledge wide and.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

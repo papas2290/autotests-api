@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA0OjQzLjMwMDg1OCIsInVzZXJfaWQiOiI0ZmYyMzcyMC0zN2ZiLTRmMTItYTRkMC0wNTE3N2ZlNjU4OGQifQ.d0U-dlCkv6iyvrg8d098S66nfdYz2s4SBTYNujwiYsA' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Community himself tell.","maxScore":56,"minScore":20,"description":"Experience same other. Thousand animal into.\nBelieve raise TV herself possible reveal. Different occur energy himself. Already woman action catch like.","estimatedTime":"6 weeks","previewFileId":"180f9e0b-a7d7-4b04-b779-fffaceb3a74a","createdByUserId":"4ff23720-37fb-4f12-a4d0-05177fe6588d"}'

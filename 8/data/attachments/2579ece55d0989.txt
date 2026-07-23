@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA0OjQxLjU0NDQ4MyIsInVzZXJfaWQiOiJiN2I5YzFjNi03OGI4LTQzMGQtOTI4Yy04YjFjMWRiNWMxYjkifQ.h8qhIpKVYGP6Rh0XzgV3r0P_Sh2UnEr4pEBiFaAOOWU' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Too specific design thought camera able PM war.","maxScore":66,"minScore":19,"description":"Director property black throw high current.\nJust good minute identify why full late role. Box short what relationship. Stay road personal certainly.","estimatedTime":"8 weeks","previewFileId":"8377638e-55cd-4ac7-817d-dfaf64751d1b","createdByUserId":"b7b9c1c6-78b8-430d-928c-8b1c1db5c1b9"}'

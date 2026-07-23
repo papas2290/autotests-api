@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA0OjQ2LjY0NTU1NSIsInVzZXJfaWQiOiJiNjc3YTRjNC0wNDQwLTQzNDctYjNhOC0zZjhjYjE1YzM5YjkifQ.TXDEZaTHhl4DIIq8Uh6zsd4-AWe-7aenPsxXMUJaeig' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bag first safe research try large audience.","maxScore":56,"minScore":5,"description":"Require activity yet process water daughter level. Find per up administration. Produce word through medical.\nManagement expert easy discussion defense too study somebody.","estimatedTime":"5 weeks","previewFileId":"6ff5d3a6-0a56-43fb-b97a-406ae4bd2ada","createdByUserId":"b677a4c4-0440-4347-b3a8-3f8cb15c39b9"}'

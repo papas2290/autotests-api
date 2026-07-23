@@ -1,0 +1,11 @@
+curl -X "PATCH" \
+  "http://localhost:8000/api/v1/courses/cc88b856-9ccc-4017-9d79-1b4c05ff5d80" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjA0OjQwLjA1OTEzMiIsInVzZXJfaWQiOiI0OTZhM2MzMS0xMWRhLTRlMmMtYTU4Ni1kM2RkOGFhZmYzMTIifQ.fjUGwY4qb6O4boAokQFN-AUiC-f5jZsIxbPUwoYsVVY' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary now ok future actually beat.","maxScore":99,"minScore":27,"description":"Someone film officer soon north room must. Interest cup politics now figure.\nTruth bar buy say instead. Know history couple there half face.\nSomeone old network performance scene glass.","estimatedTime":"4 weeks"}'
