@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE2OjA3LjUxNjc0MCIsInVzZXJfaWQiOiI1MGYwOTAwYi1lNGRjLTRjZjItOTE5OC1iMGY2YjJkMzg1YjIifQ.OLLx80SNELkwypeDPB9QG0RX_kR7CAp4MtGrfJAAG4Y' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Study stay set clear study.","maxScore":84,"minScore":10,"description":"Season court minute suffer fish market event. Generation live later stay easy activity sense business. Issue whole generation lose door PM himself seat.","estimatedTime":"1 weeks","previewFileId":"6759f441-af58-4626-8737-0f163c4c2a28","createdByUserId":"50f0900b-e4dc-4cf2-9198-b0f6b2d385b2"}'

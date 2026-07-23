@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE2OjA3LjIwNzg5NSIsInVzZXJfaWQiOiIwY2E0YzVjNC01MjU0LTRjNmYtYmY5Ny03ZjYyYTRhNGQ1MWUifQ.jfM9MxigprG8fvI9AAiecTARWCjjTqc903MSghddheQ' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choice serve threat skin trouble quality carry.","maxScore":71,"minScore":29,"description":"On media run deep. Party even know page will different.\nStory less east area. Less individual degree minute.","estimatedTime":"5 weeks","previewFileId":"6573bf91-a6b5-4240-a86e-9653c75f9a50","createdByUserId":"0ca4c5c4-5254-4c6f-bf97-7f62a4a4d51e"}'

@@ -1,0 +1,11 @@
+curl -X "PATCH" \
+  "http://localhost:8000/api/v1/courses/ca9d5b51-d138-445e-9369-3ed38769c459" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE2OjAzLjk0NjYwMiIsInVzZXJfaWQiOiI1ZmMwNTVjNC1jYzlmLTQ5YWMtYWVkOS1jMTc5MzQ3MWEzM2YifQ.MBwB2uAtVVSiuDXvLzgA7nvKB50UaU9NA9p8NMCnwPg' \
+  -H 'content-length: 223' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Short give you rise although.","maxScore":80,"minScore":28,"description":"Party apply son detail close. Customer old official friend Mrs development economy. Remain system end election.","estimatedTime":"2 weeks"}'

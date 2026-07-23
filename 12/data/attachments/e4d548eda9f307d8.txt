@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE2OjA1LjU3NjcwOSIsInVzZXJfaWQiOiI1ZjQ0Nzg3Zi0zZjc4LTRhNjMtYjBkMS00MTVkM2EwOWY3NTEifQ.kzMgLyRL5l-SVbaeFCsWEKEHnn3mfZErugo3cs5JScc' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"No star science produce record matter north.","maxScore":53,"minScore":19,"description":"Since seem six factor. Note campaign role but report growth opportunity likely. Add somebody him across low.","estimatedTime":"7 weeks","previewFileId":"9d5c1bbf-8350-45ca-94ee-7a5f0b20184b","createdByUserId":"5f44787f-3f78-4a63-b0d1-415d3a09f751"}'

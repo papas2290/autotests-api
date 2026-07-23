@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE2OjExLjI0NzgwNiIsInVzZXJfaWQiOiIyYWVmNmRkNS1jZTA0LTQ0NGMtODMwMy1iNTQ5ZmUxNTA1YWEifQ.4tFMCzmZwFb9wUKhkAG1N56nNzxDY-A8INMCSvCYbFw' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stuff community he commercial your summer vote.","maxScore":56,"minScore":9,"description":"Though where president try road. Person find decide argue though future skill.\nThing wonder believe indeed. Worker trial fall data minute education trouble.","estimatedTime":"6 weeks","previewFileId":"7ed7d6a3-6cb5-4722-827b-c2ba6033d45f","createdByUserId":"2aef6dd5-ce04-444c-8303-b549fe1505aa"}'

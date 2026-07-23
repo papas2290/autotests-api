@@ -1,0 +1,11 @@
+curl -X "PATCH" \
+  "http://localhost:8000/api/v1/exercises/08f5ec76-8afe-41ed-af81-d53faf738d8c" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE2OjA2Ljg5OTg3NSIsInVzZXJfaWQiOiI1MGYwOTAwYi1lNGRjLTRjZjItOTE5OC1iMGY2YjJkMzg1YjIifQ.8Rnp4lBo6TSJFcshSP3h4z6ztftEj8WSfngtzNxC_yA' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worry kid game.","maxScore":81,"minScore":9,"orderIndex":10,"description":"Four leave piece final community hold. Until political movie degree light light other.\nCare why scientist rock along. Tell police test investment. Sell force wrong reduce which pull.","estimatedTime":"1 weeks"}'

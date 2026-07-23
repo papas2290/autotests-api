@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE2OjA0LjkzMDM2NyIsInVzZXJfaWQiOiIwMDEwZTVkOC1iM2Q5LTRiY2MtOTAyNy1kZTMzZDlkMDgyM2QifQ.wBgf7QiasirnpxG1OiKvsMVZwc1JTodUKl6LANLw5Bc' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Phone public remember environmental.","maxScore":100,"minScore":11,"description":"Only shoulder new civil office bring. Notice together health high into every million.\nWhite next expect agency commercial. Summer model gun have. Professional can Mr decide note every speak.","estimatedTime":"3 weeks","previewFileId":"89897c5d-0a56-4e69-9fec-94f6dff227c8","createdByUserId":"0010e5d8-b3d9-4bcc-9027-de33d9d0823d"}'

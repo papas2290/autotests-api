@@ -1,0 +1,11 @@
+curl -X "POST" \
+  "http://localhost:8000/api/v1/courses" \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIxOjE2OjAzLjk0NjYwMiIsInVzZXJfaWQiOiI1ZmMwNTVjNC1jYzlmLTQ5YWMtYWVkOS1jMTc5MzQ3MWEzM2YifQ.MBwB2uAtVVSiuDXvLzgA7nvKB50UaU9NA9p8NMCnwPg' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Loss human wall bring.","maxScore":71,"minScore":28,"description":"Rock process citizen ask investment loss.\nPersonal since own.\nTask woman benefit live general join these. Discover language cover wide recent goal age. Degree church night firm break there product.","estimatedTime":"5 weeks","previewFileId":"c5552acc-3d49-4fcd-952e-44c95cccee95","createdByUserId":"5fc055c4-cc9f-49ac-aed9-c1793471a33f"}'

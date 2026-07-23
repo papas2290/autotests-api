@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that title equals to No star science produce record matter north.
+INFO     BASE_ASSERTIONS:base.py:36 Check that max_score equals to 53
+INFO     BASE_ASSERTIONS:base.py:36 Check that min_score equals to 19
+INFO     BASE_ASSERTIONS:base.py:36 Check that description equals to Since seem six factor. Note campaign role but report growth opportunity likely. Add somebody him across low.
+INFO     BASE_ASSERTIONS:base.py:36 Check that estimated_time equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that preview_file.id equals to 9d5c1bbf-8350-45ca-94ee-7a5f0b20184b
+INFO     BASE_ASSERTIONS:base.py:36 Check that created_by_user.id equals to 5f44787f-3f78-4a63-b0d1-415d3a09f751
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
